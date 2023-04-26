@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+from sklearn import linear_model
+from sklearn.linear_model import LogisticRegression
 import pickle
 model=pickle.load(open('model.pkl','rb'))
 
